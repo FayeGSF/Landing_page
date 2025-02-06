@@ -1,0 +1,224 @@
+html, body {
+    height: 100%; /* Ensure the full height of the viewport is used */
+    margin: 0;    /* Remove default margin */
+  }
+
+
+body{
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.headcontainer{
+    background-color: #1f2937;
+    padding: 20px 200px;
+    display:flex;
+    flex-direction: row; 
+}
+
+.header{
+   color: #f9faf8;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.links{
+    display:flex;
+    margin-left:auto;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    margin:0px;
+    padding:10px;
+    gap:1em;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.topcontainer{
+    background-color: #1f2937;
+    padding: 100px 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap:1em;
+    padding-right: 10px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 48px;
+    display: flex;
+    
+}
+
+.subtext{
+    font-size: 18px;
+    flex-wrap:wrap; 
+    color: #e5e7eb;
+}
+
+.button{
+    border: 10px;
+    padding:10px;
+    background-color: #3882f6;
+    width:100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.placeholder{
+    display: flex;
+    width:450px;
+    height:200px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+.midcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 0px;
+}
+
+.midtitle{
+    font-size: 36px;
+    /* font-family:Verdana, Tahoma, sans-serif , Helvetica, sans-serif; */
+    font-weight: 900;
+    color: #1F2937;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    border: 4px solid rgb(55, 118, 235); /* Added solid */
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap:2em;
+}
+.display{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:150px;
+    gap:10px;
+    padding:10px;
+}
+
+.card{
+    color: gray;
+    font-family:Verdana, Tahoma, sans-serif , Helvetica, sans-serif;
+}
+
+.lowercontainer{
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    margin: 100px 0px;
+    padding: 100px 400px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Lucida Handwriting','Brush Script MT';
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sign-off{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lastcontainer{
+    display:flex;
+    flex-direction:row;
+    border:solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 12px;
+    justify-content:center;
+    align-items:center;
+    gap:10em;
+    width:80%;
+    width:1000px;
+    height:120px;
+    margin: auto;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.action{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.action-text{
+    padding:10px;
+}
+
+.sign-up{
+    display: flex;
+    border: 2px white solid;
+    padding:10px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+    width:100px;
+    justify-content: center;  /* Align the text horizontally */
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color:#1f2937;
+    margin-top: auto;
+    padding:50px;
+    text-align: center;
+}

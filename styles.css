@@ -185,12 +185,14 @@ a{
     width:1000px;
     height:120px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .container{
     display:flex;
     flex-direction: column;
     color: white;
+    
 }
 
 .action{
@@ -213,6 +215,7 @@ a{
     color: white;
     width:100px;
     justify-content: center;  /* Align the text horizontally */
+    
 }
 .footer{
     font-family: Arial, Helvetica, sans-serif;
